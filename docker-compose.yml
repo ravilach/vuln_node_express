@@ -3,5 +3,6 @@ version: "3.9"
 services:
   nodeexpressvulny:
     build: .
+    image: rlachhman/demo
     ports:
       - 3000:3000
